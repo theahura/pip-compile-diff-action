@@ -1,0 +1,11 @@
+name: 'pip-compile Diff Checker'
+description: 'Run pip-compile, check for diffs to compare against existing requirements.txt.'
+author: "Amol Kapoor <amoljayakapoor@gmail.com>"
+
+branding:
+  icon: 'check-circle'
+  color: 'green'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
