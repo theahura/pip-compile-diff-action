@@ -1,4 +1,4 @@
-# depcheck-action
+# Pip Compile Diff
 
 Run [pip-compile](https://github.com/jazzband/pip-tools) in a Github Workflow
 and compare the output with the pre-existing requirements.txt. This is helpful
