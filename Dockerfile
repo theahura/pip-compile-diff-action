@@ -8,7 +8,7 @@ LABEL "repository"="https://github.com/theahura/pip-compile-diff-action"
 LABEL "homepage"="https://github.com/theahura/pip-compile-diff-action"
 LABEL "maintainer"="Amol Kapoor <amoljaykapoor@gmail.com>"
 
-RUN pip install --upgrade pip
+RUN pip install pip==21.3.1
 RUN pip install pip-tools==6.4.0
 
 COPY entrypoint.sh /entrypoint.sh
