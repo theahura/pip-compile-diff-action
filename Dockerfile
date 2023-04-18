@@ -9,7 +9,7 @@ LABEL "homepage"="https://github.com/theahura/pip-compile-diff-action"
 LABEL "maintainer"="Amol Kapoor <amoljaykapoor@gmail.com>"
 
 RUN pip install --upgrade pip
-RUN pip install pip-tools==6.12.1
+RUN pip install pip-tools==6.13.0
 
 COPY entrypoint.sh /entrypoint.sh
 
